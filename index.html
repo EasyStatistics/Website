@@ -38,7 +38,7 @@
         <div class="row">
           <div class="col-md-6 col-sm-6 mt-3">
             <div class="header-content-left">
-              <img src="img/image1.png" style="width: 100%;">
+              <img src="img/image1.png" style="width: 80%;">
             </div>  
           </div>
           <div class="col-md-6 col-sm-6 my-auto">
@@ -77,25 +77,43 @@
       </div>
     </section>
 
-    <section id="Correlation">
+    <section id="Survival">
       <div class="container">
         <div class="row mt-5">
-          <div class="col-md-6">
-            <div class="info-left">
-              <img src="img/image3.png" style="width: 100%">
-            </div>
-          </div>
           <div class="col-md-6 my-auto">
-            <div class="info-right">
+            <div class="info-left">
               <h2>Generate survival plots!</h2>
               <p>Once the users have identified the optimal cut-point, they can click on it and EasyStats automatically generates ready to publish Kaplan-Meier Survival Plots for all the datasets.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-right">
+              <img src="img/image3.png" style="width: 100%">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="Bar Graphs">
+    <section id="Correlation">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="info-left">
+              <img src="img/image6.png" style="width: 100%">
+            </div>
+          </div>
+          <div class="col-md-6 my-auto">
+            <div class="info-right">
+              <h2>Compare association between markers!</h2>
+              <p>EasyStats users can quickly generate marker correlation plots! </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Bar-Graphs">
       <div class="container">
         <div class="row mt-5">
           <div class="col-md-6 my-auto">
@@ -113,7 +131,7 @@
       </div>
     </section>
 
-    <section id="Contingency Table">
+    <section id="Contingency-Table">
       <div class="container">
         <div class="row mt-5">
           <div class="col-md-6">
@@ -133,7 +151,7 @@
 
     <section id="Download">
       <div class="container">
-            <a href="https://github.com/EasyStatistics/Website/blob/1b513af7ca5e0625cb653918ddc350df9d1d5176/img/image5.png" download class="btn btn-outline-secondary btn-lg" download>Download now!</a>
+            <a href="https://github.com/EasyStatistics/Website/blob/main/img/image1.png?raw=true" download="image1.png" class="btn btn-outline-secondary btn-lg" download>Download now!</a>
       </div>
     </section>
 
@@ -150,7 +168,7 @@
           <div class="col-md-6 col-sm-6 mt-3">
             <div class="Tutorial-content-left">
               <a href="http://www.youtube.com/@EasyStats3" target="_blank">
-                <img src="img/image1.png" style="width: 100%;">
+                <img src="img/image1.png" style="width: 60%;">
               </a>
             </div>  
           </div>
@@ -227,6 +245,30 @@
     });
 
     sr.reveal('#Features', {
+      duration: 2000,
+      origin: 'right',
+      distance: '300px'
+    });
+
+    sr.reveal('#Survival', {
+      duration: 2000,
+      origin: 'left',
+      distance: '300px'
+    });
+
+    sr.reveal('#Correlation', {
+      duration: 2000,
+      origin: 'right',
+      distance: '300px'
+    });
+
+    sr.reveal('#Bar-Graphs', {
+      duration: 2000,
+      origin: 'left',
+      distance: '300px'
+    });
+
+    sr.reveal('#Contingency-Table', {
       duration: 2000,
       origin: 'right',
       distance: '300px'
